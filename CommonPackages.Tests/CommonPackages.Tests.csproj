@@ -163,7 +163,6 @@
         <Compile Include="ProgramTest.cs"/>
         <Compile Include="Utilities\CsvManagerTest.cs"/>
         <Compile Include="Utilities\PIServiceManagerTest.cs"/>
-        <Compile Include="Utilities\SQLiteDatabaseContextTest.cs"/>
     </ItemGroup>
     <ItemGroup>
         <Content Include="Temp\CsvManagerTest.csv"/>
