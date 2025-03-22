@@ -1,3 +1,7 @@
+// This file requires the following packages:
+// - log4net (Logging)
+// - CsvHelper (CSV)
+
 using System.Collections.Generic;
 using System.Data;
 using System.Globalization;

@@ -1,3 +1,7 @@
+// This file requires the following packages:
+// - log4net (Logging)
+// - System.ServiceProcess (Dependencies Package)
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
