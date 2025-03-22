@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ADatabase_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FUsers_003Fakbar_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F068a3c4080104e51828ab210be168ae84c2978_003Fe9_003F33fcbb24_003FDatabase_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AMigrateDatabaseToLatestVersion_00602_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FUsers_003Fakbar_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F068a3c4080104e51828ab210be168ae84c2978_003Fa2_003Ffe9b1662_003FMigrateDatabaseToLatestVersion_00602_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AMigrationsException_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FUsers_003Fakbar_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F068a3c4080104e51828ab210be168ae84c2978_003Fca_003Fbe6252f8_003FMigrationsException_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:Boolean x:Key="/Default/Environment/Hierarchy/EntityFrameworkOptions/IsAlreadyNotifiedAboutEntityFramework/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=D227F610_002DB181_002D453F_002DA267_002D1D1AD595A0D9/@EntryIndexedValue">4A0B3084-7E28-4AE4-B7C1-69A9E1C16285</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=MSTest/@EntryIndexedValue">d6790ab7-33c2-4425-b2c9-51480cd1a852</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5479591c_002D24a1_002D48b2_002D82a7_002Dcc01be5c4d92/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RunTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.ProgramTest.RunTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.CsvManagerTest.ReadTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.CsvManagerTest.WriteDataTableTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.CsvManagerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.PIServiceManagerTest.FindServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.PIServiceManagerTest.StopServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.PIServiceManagerTest.RestartServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.PIServiceManagerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Repositories.SQLiteRepositoryTest.GetConnectionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.Utilities.SQLiteDatabaseContextTest.CreateUsersTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a684b246_002D1162_002D4fb6_002Db43a_002D762760f55695/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RunTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::4A0B3084-7E28-4AE4-B7C1-69A9E1C16285::.NETFramework,Version=v4.8::CommonPackages.Tests.ProgramTest.RunTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
