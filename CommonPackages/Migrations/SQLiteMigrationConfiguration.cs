@@ -4,9 +4,9 @@ using CommonPackages.Utilities;
 
 namespace CommonPackages.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<SQLiteDatabaseContext>
+    internal sealed class SQLiteMigrationConfiguration : DbMigrationsConfiguration<SQLiteDatabaseContext>
     {
-        public Configuration()
+        public SQLiteMigrationConfiguration()
         {
             AutomaticMigrationsEnabled = false;
             AutomaticMigrationDataLossAllowed = false;

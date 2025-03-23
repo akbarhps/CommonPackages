@@ -3,18 +3,18 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class CreateUserTable : DbMigration
+    public partial class CreateUserAndUserAddressesTable : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.UserAddresses",
+                "dbo.User_Addresses",
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
                         UserID = c.Int(nullable: false),
-                        City = c.String(maxLength: 2147483647),
-                        Address = c.String(maxLength: 2147483647),
+                        City = c.String(maxLength: 255),
+                        Address = c.String(maxLength: 255),
                     })
                 .PrimaryKey(t => t.ID)
                 .ForeignKey("dbo.Users", t => t.UserID, cascadeDelete: true)
@@ -25,7 +25,7 @@
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
-                        Name = c.String(maxLength: 2147483647),
+                        Name = c.String(maxLength: 255),
                     })
                 .PrimaryKey(t => t.ID);
             
@@ -33,10 +33,10 @@
         
         public override void Down()
         {
-            DropForeignKey("dbo.UserAddresses", "UserID", "dbo.Users");
-            DropIndex("dbo.UserAddresses", new[] { "UserID" });
+            DropForeignKey("dbo.User_Addresses", "UserID", "dbo.Users");
+            DropIndex("dbo.User_Addresses", new[] { "UserID" });
             DropTable("dbo.Users");
-            DropTable("dbo.UserAddresses");
+            DropTable("dbo.User_Addresses");
         }
     }
 }

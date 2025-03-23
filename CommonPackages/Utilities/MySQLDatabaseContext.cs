@@ -1,9 +1,8 @@
 // This file requires the following packages:
 // - log4net (Logging)
 // - EntityFramework (ORM)
-// - System.Data.SQLite (SQLite)
-// - System.Data.SQLite.EF6 (SQLite ORM)
-// - System.Data.SQLite.EF6.Migrations (SQLite Migrations)
+// - MySql.Data (MySQL Connector)
+// - MySql.Data.EntityFramework (MySQL Connector EF)
 //
 // Update the App.config or Web.config file (check the CommonPackages project App.config)
 // look for the connectionStrings, entityFramework, DbProviderFactories
@@ -17,11 +16,11 @@ using log4net;
 
 namespace CommonPackages.Utilities
 {
-    public class SQLiteDatabaseContext : DbContext
+    public class MySQLDatabaseContext : DbContext
     {
-        private static readonly ILog Logger = LogManager.GetLogger(typeof(SQLiteDatabaseContext));
+        private static readonly ILog Logger = LogManager.GetLogger(typeof(MySQLDatabaseContext));
 
-        public SQLiteDatabaseContext() : base("name=SQLiteConnection")
+        public MySQLDatabaseContext() : base("name=MySQLConnection")
         {
             Database.Log = s => Logger.Debug(s);
         }

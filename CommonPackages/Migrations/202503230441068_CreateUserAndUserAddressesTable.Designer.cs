@@ -6,14 +6,14 @@ namespace CommonPackages.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class CreateUserTable : IMigrationMetadata
+    [GeneratedCode("EntityFramework.Migrations", "6.5.1")]
+    public sealed partial class CreateUserAndUserAddressesTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateUserTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateUserAndUserAddressesTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "202503220543499_CreateUserTable"; }
+            get { return "202503230441068_CreateUserAndUserAddressesTable"; }
         }
         
         string IMigrationMetadata.Source
