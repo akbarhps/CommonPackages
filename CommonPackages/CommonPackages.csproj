@@ -154,6 +154,7 @@
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Services\"/>
+        <Folder Include="Temp\"/>
     </ItemGroup>
     <ItemGroup>
         <None Include="App.config"/>
@@ -162,7 +163,7 @@
         <None Include="packages.config"/>
     </ItemGroup>
     <ItemGroup>
-        <Content Include="Temp\database.sqlite"/>
+        <Content Include="database.sqlite"/>
     </ItemGroup>
     <ItemGroup>
         <EmbeddedResource Include="Migrations\202503230441068_CreateUserAndUserAddressesTable.resx">
